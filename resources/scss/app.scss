@@ -9,3 +9,20 @@ body {
 h1 {
     color: red;
 }
+
+
+.bar {
+    display: flex;
+    justify-content: space-around;
+    height: 120px;}
+
+.text {
+    list-style: none;
+    align-items: center;
+    gap: 1rem;
+    display: flex;}
+
+.size {
+        margin-top: 1rem;
+    height: 80px;
+}
