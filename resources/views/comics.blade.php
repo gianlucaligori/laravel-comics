@@ -9,22 +9,9 @@
 </head>
 
 <body>
-    <div class="bar">
-        <img class="size-img" src="{{ Vite::asset('../resources/images/dc-logo.png') }}" alt="">
-        <ul class="text">
-            <li>CHARACTERS</li>
-            <li>COMICS</li>
-            <li>MOVIES</li>
-            <li>TV</li>
-            <li>GAMES</li>
-            <li>COLLECTIBLES</li>
-            <li>VIDEOS</li>
-            <li>FANS</li>
-            <li>FANS</li>
-            <li>NEWS</li>
-            <li>SHOP</li>
-        </ul>
-    </div>
+    @include('partials.header')
+    @include('partials.main')
+    @include('partials.footer')
 </body>
 
 </html>
